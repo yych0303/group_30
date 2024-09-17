@@ -1,0 +1,285 @@
+body {
+    font-family: "Noto Sans", "Microsoft JhengHei";
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.wrap {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header {
+    border-bottom: 1.5px solid #080024;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.logo a {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #080024;
+    display: block;
+    text-decoration: none;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menu-list {
+    float: right;
+    font-size: 30px;
+}
+
+.menu-list li {
+    float: left;
+}
+
+.listsp {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #4f8eec;
+    padding-right: 10px;
+}
+
+.menu-list a {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #9170ea;
+    padding-right: 10px;
+}
+
+.menu-list a:hover {
+    color: #021af5;
+}
+
+.showmenu {
+    display: none;
+    float: right;
+    text-decoration: none;
+    color: #080024;
+    font-weight: 600;
+    padding: 120px;
+}
+
+li {
+    list-style: none;
+}
+
+.id {
+    padding-top: 10px;
+}
+
+.shopname {
+    height: 30px;
+    width: 300px;
+}
+
+@media(max-width: 780px) {
+    .menu-list {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單end*/
+        /*追隨.header*/
+        /*讓選單從左到右延伸start*/
+        right: 0;
+        left: 0;
+        width: 570px;
+        /*讓選單從左到右延伸end*/
+        top: 160px;
+        /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+        z-index: 150px;
+        transition: all 2.5s;
+    }
+    .menu-list li {
+        float: none;
+        border-bottom: 1px solid #080024;
+        background: #080024;
+    }
+    .showmenu {
+        display: block;
+        padding: 30px;
+    }
+    /*jQ點擊後動態在 body 加上 class */
+    .menu-show .menu-list {
+        max-height: 780px;
+    }
+    .shopname1 {
+        height: 200px;
+        width: 600px;
+    }
+}
+
+.content {
+    padding: 5% 6%;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.shopname {
+    height: 30px;
+    width: 300px;
+}
+
+@media(max-width: 630px) {
+    .menu-list {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單end*/
+        /*追隨.header*/
+        /*讓選單從左到右延伸start*/
+        right: 0;
+        left: 0;
+        width: 450px;
+        /*讓選單從左到右延伸end*/
+        top: 160px;
+        /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+        z-index: 150px;
+        transition: all 2.5s;
+    }
+    .menu-list li {
+        float: none;
+        border-bottom: 1px solid #080024;
+        background: #080024;
+    }
+    .showmenu {
+        display: block;
+        padding: 30px;
+    }
+    /*jQ點擊後動態在 body 加上 class */
+    .menu-show .menu-list {
+        max-height: 780px;
+    }
+    .shopname1 {
+        height: 200px;
+        width: 600px;
+    }
+}
+
+.content {
+    padding: 5% 6%;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.shopname {
+    height: 30px;
+    width: 300px;
+}
+
+@media(max-width: 520px) {
+    .menu-list {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單end*/
+        /*追隨.header*/
+        /*讓選單從左到右延伸start*/
+        right: 0;
+        left: 0;
+        width: 350px;
+        /*讓選單從左到右延伸end*/
+        top: 160px;
+        /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+        z-index: 150px;
+        transition: all 2.5s;
+    }
+    .menu-list li {
+        float: none;
+        border-bottom: 1px solid #ea7070;
+        background: #f5f4e8;
+    }
+    .showmenu {
+        display: block;
+        padding: 30px;
+    }
+    /*jQ點擊後動態在 body 加上 class */
+    .menu-show .menu-list {
+        max-height: 780px;
+    }
+    .shopname1 {
+        height: 200px;
+        width: 600px;
+    }
+}
+
+.content {
+    padding: 5% 6%;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.shopname {
+    height: 30px;
+    width: 300px;
+}
+
+@media(max-width: 400px) {
+    .menu-list {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單end*/
+        /*追隨.header*/
+        /*讓選單從左到右延伸start*/
+        right: 0;
+        left: 0;
+        width: 250px;
+        /*讓選單從左到右延伸end*/
+        top: 160px;
+        /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+        z-index: 150px;
+        transition: all 2.5s;
+    }
+    .menu-list li {
+        float: none;
+        border-bottom: 1px solid #ea7070;
+        background: #f5f4e8;
+    }
+    .showmenu {
+        display: block;
+        padding: 30px;
+    }
+    /*jQ點擊後動態在 body 加上 class */
+    .menu-show .menu-list {
+        max-height: 780px;
+    }
+    .shopname1 {
+        height: 200px;
+        width: 600px;
+    }
+}
+
+.content {
+    padding: 5% 6%;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.shopname {
+    height: 30px;
+    width: 300px;
+}

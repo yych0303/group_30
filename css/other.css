@@ -1,0 +1,141 @@
+   .btn-group1 {
+       text-align: right;
+   }
+   
+   #showproduct {
+       padding-top: 100px;
+       padding-left: 200px;
+       width: 1200px;
+       height: 1500px;
+   }
+   
+   #prolefttext {
+       font-size: 28px;
+   }
+   
+   #protopid {
+       font-size: 35px;
+   }
+   
+   .productleftbut {
+       text-align: right;
+       vertical-align: bottom;
+   }
+   
+   .butsgroup {
+       text-align: right;
+       display: block;
+   }
+   
+   .buts {
+       margin: 0 5px;
+   }
+   
+   .topic {
+       padding-top: 15px;
+       padding-left: 30px;
+       font-size: 35px;
+   }
+   
+   .webdital {
+       display: block;
+   }
+   
+   .today_hot,
+   .lastview {
+       border: 2px dashed #000;
+       text-align: center;
+       margin-bottom: 30px;
+   }
+   
+   .webdital {
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+   
+   .product {
+       display: inline-block;
+       margin: 0 10px;
+       text-align: center;
+       font-size: larger;
+       width: 250px;
+       padding-bottom: 20px;
+   }
+   
+   .slider {
+       width: 50%;
+       margin: 100px auto;
+   }
+   
+   .slick-slide {
+       margin: 0px 20px;
+   }
+   
+   .slick-slide img {
+       width: 100%;
+   }
+   
+   .slick-prev:before,
+   .slick-next:before {
+       color: black;
+   }
+   
+   .slick-slide {
+       transition: all ease-in-out .3s;
+       opacity: .2;
+   }
+   
+   .slick-active {
+       opacity: .5;
+   }
+   
+   .slick-current {
+       opacity: 1;
+   }
+   
+   .bd-placeholder-img {
+       font-size: 1.125rem;
+       text-anchor: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       user-select: none;
+   }
+   
+   @media (min-width: 768px) {
+       .bd-placeholder-img-lg {
+           font-size: 3.5rem;
+       }
+   }
+   
+   .showcontiner {
+       margin: 0 30px;
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+   
+   .colorred {
+       color: red;
+   }
+   
+   .pro_sidebar {
+       width: 200px;
+       position: fixed;
+       top: 200px;
+       /*看你要設定黏在螢幕上離頂端多少距離的位置*/
+       font-size: larger;
+   }
+   
+   .pro_has_sidebare {
+       margin-left: 200px;
+       display: inline-block;
+   }
+   
+   .pro_topic {
+       margin-left: 180px;
+   }
+   
+   .slick-prev:before,
+   .slick-next:before {
+       color: black;
+       font-size: xx-large;
+   }
